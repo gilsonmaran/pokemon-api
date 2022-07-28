@@ -47,8 +47,9 @@
     background-color: #39f;
 }
 
-.type_eletric {
+.type_electric {
     background-color: #fc3;
+    color: #000;
 }
 
 .type_grass {
@@ -69,6 +70,7 @@
 
 .type_ground {
     background-color: #db5;
+    color: #000;
 }
 
 .type_flying {

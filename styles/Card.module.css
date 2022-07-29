@@ -12,6 +12,8 @@
     background: linear-gradient(45deg, rgba(51, 51, 51, 1) 0%, rgba(34, 34, 34, 1) 66%, rgba(0, 0, 0, 1) 100%);
     color: #fff;
     transition: 0.3s;
+    max-width: 250px !important;
+    min-width: 160px !important;
 }
 
 .card:hover {
@@ -21,6 +23,11 @@
 
 .card:hover .btn {
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.img:hover {
+    height: 110%;
+    width: 140px;
 }
 
 .card .id {

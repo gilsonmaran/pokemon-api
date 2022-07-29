@@ -34,7 +34,7 @@ export const getStaticProps = async (context) => {
 export default function Pokemon({ pokemon }) {
     return (
         <div className={styles.pokemon_container}>
-            <h1 className={styles.title}>{pokemon.name}</h1>
+            <h2 className={styles.title}>{pokemon.name}</h2>
             <Image src={`https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`} width="200" height="200" />
             <div className={styles.margin}>
                 <h3>#{pokemon.id}</h3>
